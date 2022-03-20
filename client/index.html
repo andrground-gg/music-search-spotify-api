@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/js/index.js" type="module"></script> 
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.png"/>
+    <title>MUZLO NORMALNOE</title>
+</head>
+<body>
+    <nav class="nav-container nav-container--middle">        
+        <a href="/" class="logo" data-link>MUZLO</a>    
+        <div class="input-container input-container--w40">
+            <input class="input-container__search-input" type="text" name="query">
+            <img class="input-container__icon" src="https://img.icons8.com/android/48/000000/search.png">
+        </div>
+        <div class="categories">
+            <a href="/artists" class="categories__caption" data-link>ARTISTS</a>
+            <a href="/tracks" class="categories__caption" data-link>TRACKS</a>
+            <a href="/albums" class="categories__caption" data-link>ALBUMS</a> 
+        </div>
+    </nav>
+    <div id="app"></div>
+    <div class="lyrics-tooltip" style="display: none">
+        <p class="lyrics-tooltip__caption">LYRICS</p>
+        <pre class="lyrics-tooltip__text">
+        </pre>
+    </div>
+    
+</body>
+</html>
